@@ -14,5 +14,6 @@ namespace AsilMedia.Application.Abstractions.Repositories
         public Task<List<FilmMaker>> SelectAllAsync();
         public Task<FilmMaker> UpdateAsync(FilmMaker filmMaker, long id);
         public Task<FilmMaker> DeleteAsync(long id);
+        //
     }
 }
