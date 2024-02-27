@@ -17,5 +17,10 @@ namespace AsilMedia.Application.DataTransferObjects
         public string PhotoPath { get; set; }
 
         public List<Film> Films { get; set; }
+
+        public static Task DeleteAsync(long id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
